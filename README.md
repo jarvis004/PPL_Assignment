@@ -33,10 +33,10 @@
 
 - You need to make a logging utility to log (in a text file) all commitments,|breakups and exchange of gifts. The logging should include timestamp, event type and the event description so as to be easily scanned while debugging. You also need to make a testing utility in addition that creates random girls, boys and gifts of every type and stores it in CSV files (or any format that you like). These will be used by you for testing.
 
-### Solve the following questions :
->Allocate boyfriends to all girls in the same order as given in the input, and print the couples so formed without using inheritance.
+## Solve the following questions :
+* Allocate boyfriends to all girls in the same order as given in the input, and print the couples so formed without using inheritance.
 
->After allocating boyfriends to all girls in the same order as given in the input, and after performing gifting to all girls as per logic, print the best k happiest couples and the best k most compatible couples. Also print all gift details of gift exchanges between all couples. Solve the question without using inheritance.
+* After allocating boyfriends to all girls in the same order as given in the input, and after performing gifting to all girls as per logic, print the best k happiest couples and the best k most compatible couples. Also print all gift details of gift exchanges between all couples. Solve the question without using inheritance.
 
 
 ## Build System:
