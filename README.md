@@ -7,19 +7,25 @@
   
 ### There are three types of gifts :
 >Essential Gifts :These are bare minimal gifts and are associated with a price and value.
+
 >Luxury Gifts :These gifts have the attributes of the luxury rating, difficulty to obtain the gift,value and price.
+
 >Utility Gifts:These gifts are associated with the utility value, utility class, value and price.
 
 ### As legend has it, there are three types of committed girls:
 
->The choosy : whose happiness in a relationship is logarithmic of the total cost of gifts achieved over maintenance. However the luxury gifts are very previous and count double the normal value.
->The normal: whose happiness in a relationship is linear to the total cost of gifts achieved over maintenance,including luxury gifts. The value of all gifts is added additional to the cost.
+>The choosy : whose happiness in a relationship is logarithmic of the total cost of gifts achieved over maintenance.However the luxury gifts are very previous and count double the normal value.
+
+>The normal : whose happiness in a relationship is linear to the total cost of gifts achieved over maintenance,including luxury gifts. The value of all gifts is added additional to the cost.
+
 >The desperate : whose happiness in a relationship is exponential to the total cost of gifts received over maintenance, including luxury gifts. The value is not considered.
 
 ###Similarly there are three types of committed boys:
 
->The Miser: who gift their girlfriend with enough gifts, equal or just over the maintenance cost. The happiness of these boys is given by the total unspent money from their budget.
+>The Miser: who gift their girlfriend with enough gifts, equal or just over the maintenance cost. The happiness of these boys is given by the total unspent money from their budget.  
+
 >The Generous: who gift their girlfriend with maximum cost gifts, equal to or just under their budget. The happiness of these boys is given by the happiness of the girlfriend.
+
 >The Geeks: who gift their girlfriend with enough gifts, equal or just over the maintenance cost. They additionally give one luxury gift, if budget allows. The happiness of these boys is given by the intelligence of their girlfriend alone.
 
 - While setting the gift basket is a DP/brute-force algorithm (subjected to integral or decimal costs), here a simple greedy algorithm will be used. From the list of gifts, starting from the cheapest, gifts will be added one by one, till the gifting constraints are satisfied. No gift can be repeated in the basket. If no gifting is possible, the boy can increase his budget so as to make a feasible gift basket.The happiness of a couple is defined as the sum of the happiness of both girl and boy, accounting for all gifting taken place in the past. The compatibility of a couple is defined as the sum of: magnitude by which the budget of the boy exceeds the maintenance cost of the girl, the absolute value of the difference in attractiveness, and the absolute value of the difference of intelligence.
